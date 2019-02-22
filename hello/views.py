@@ -6,5 +6,3 @@ def index(request):
     data = []    
     data = WorkData.objects.all().values()
     return HttpResponse(data)
-
-    
