@@ -9,7 +9,12 @@ class WorkData(models.Model):
     EndTime = models.DateTimeField(blank=True, null=True)
     MorningOffFlg = models.BooleanField(blank=True, null=True)
     AfternoonOffFlg = models.BooleanField(blank=True, null=True)
-    
+    UpdStartTime = models.DateTimeField(blank=True, null=True)
+    UpdEndTime = models.DateTimeField(blank=True, null=True)
+    UpdMorningOffFlg = models.BooleanField(blank=True, null=True)
+    UpdAfternoonOffFlg = models.BooleanField(blank=True, null=True)
+    UpdFlg = models.BooleanField(blank=True, null=True)
+
 class SyainData(models.Model):
     SyainId = models.CharField(max_length=7, primary_key=True)
     PassWord = models.CharField(max_length=8)

@@ -1,0 +1,8 @@
+{
+    "python.pythonPath": "/anaconda3/envs/django_app/bin/python",
+    "appService.deploySubpath": "",
+    "appService.zipIgnorePattern": [
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/ebc3c555-871b-4253-88ca-c3bd1275860f/resourceGroups/python/providers/Microsoft.Web/sites/pythonap"
+}
