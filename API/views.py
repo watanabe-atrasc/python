@@ -76,8 +76,15 @@ def Record(request):
         return JsonResponse(status)
     
 def GetInfo(request):
-    return HttpResponse(serializers.serialize('json', WorkData.objects.all()))
-    
+        
+    status = {"status":0}
+        
+    if (request.method == 'GET'):
+
+        SyainId = request.GET['id']
+
+        return HttpResponse(serializers.serialize('json', WorkData.objects.filter(SyainId__startswith=SyainId)))
+
 def Correct(request):
     try:
         
