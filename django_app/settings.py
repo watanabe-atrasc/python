@@ -25,7 +25,7 @@ SECRET_KEY = '*3x1-!tml4503*=9e!$wk%0+a1e60b4f3^#+@b010_wbk3nv1m'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*', 'https://pythonap.azurewebsites.net']
+ALLOWED_HOSTS = ['*', 'https://mysqlap.azurewebsites.net']
 #ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
 #ALLOWED_HOSTS = ['*']
 
