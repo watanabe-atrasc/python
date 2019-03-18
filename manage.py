@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import os
 import sys
-import pymysql
+import PyMySQL
 pymysql.install_as_MySQLdb()
 
 if __name__ == '__main__':
