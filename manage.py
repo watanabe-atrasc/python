@@ -2,7 +2,7 @@
 import os
 import sys
 import PyMySQL
-pymysql.install_as_MySQLdb()
+PyMySQL.install_as_MySQLdb()
 
 if __name__ == '__main__':
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'django_app.settings')
