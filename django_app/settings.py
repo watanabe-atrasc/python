@@ -25,9 +25,9 @@ SECRET_KEY = '*3x1-!tml4503*=9e!$wk%0+a1e60b4f3^#+@b010_wbk3nv1m'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*', 'https://pythonap.azurewebsites.net']
+#ALLOWED_HOSTS = ['*', 'https://pythonap.azurewebsites.net']
 #ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
-
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
@@ -75,7 +75,6 @@ WSGI_APPLICATION = 'django_app.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
-"""
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -89,6 +88,7 @@ DATABASES = {
         }
     }
 }
+
 """
 DATABASES = {
     'default': {
@@ -96,6 +96,7 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+"""
 
 # Password validation
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators
