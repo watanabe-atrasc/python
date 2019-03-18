@@ -63,6 +63,7 @@ Sphinx==1.8.4
 sphinxcontrib-websupport==1.1.0
 spyder==3.3.3
 spyder-kernels==0.4.2
+splite==3.26.0
 testpath==0.4.2
 tornado==5.1.1
 traitlets==4.3.2
@@ -72,3 +73,4 @@ wcwidth==0.1.7
 webencodings==0.5.1
 wrapt==1.11.1
 wurlitzer==1.0.2
+
