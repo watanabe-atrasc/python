@@ -75,6 +75,7 @@ WSGI_APPLICATION = 'django_app.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
+"""
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -82,6 +83,21 @@ DATABASES = {
         'USER': 'root',
         'PASSWORD': '', 
         'HOST': 'localhost',
+        'PORT': '',
+        'OPTIONS': {
+        'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
+        }
+    }
+}
+"""
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'pythondiag590',
+        'USER': 'Wa123456',
+        'PASSWORD': 'Sa1234567890', 
+        'HOST': '40.78.46.204',
         'PORT': '',
         'OPTIONS': {
         'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
