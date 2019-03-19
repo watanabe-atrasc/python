@@ -95,9 +95,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'pythondiag590',
-        'USER': 'Wa123456',
+        'USER': 'Wa123456@pythondiag590',
         'PASSWORD': 'Sa1234567890', 
-        'HOST': '40.78.46.204',
+        'HOST': 'pythondiag590.mysql.database.azure.com',
         'PORT': '',
         'OPTIONS': {
         'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
